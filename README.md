@@ -9,6 +9,14 @@ We addressed the challenge of optimizing Deliveroo's ad campaigns through strate
 ## Data Description
 The dataset includes customer interactions with Deliveroo's ad campaigns, featuring social media interactions, demographics, time spent on the website prior to clicking, and more. With 18,000 entries, it covers various features like region, daytime, carrier, and click conversion indicators.
 
+### Length of the Dataset: 18,000 entries.
+### Categorical Features: 
+Includes 5 regions indicating the geographical locations of the customers in France, the customer's mobile service provider (4 carriers), the day of interaction (7 days), originating social platform (3 networks), and customer's choice of cuisine (5 cuisines).
+### Numerical Features: 
+Daytime (numerical representation of the time of day), duration of customer's engagement before clicking (in seconds), and the number of previous orders by the customer.
+### Target Variable: 
+Click Conversion, a binary indicator of whether an ad was clicked (1) or not clicked (0).
+
 ## Source of Data
 Data was shared by Prof. Dr. Raoul Kübler, Associate Professor of Marketing, ESSEC Business School, Paris 
 
